@@ -1,13 +1,29 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <h2>{{msg}}</h2>
+    <AuthorInfo></AuthorInfo>
+    <!-- <router-view/> -->
+    <router-link to="/view1">Go to view1</router-link>
+    <router-link to="/view2">Go to view2</router-link>
+    <!-- 路由出口 -->
+    <!-- 路由匹配到的组件将渲染在这里 -->
+    <router-view></router-view>
   </div>
 </template>
 
-<script>
+<script>  
+import AuthorInfo from './components/AuthorInfo.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      msg: 'Hello World!'
+    }
+  },
+  components: {
+    AuthorInfo
+  }
 }
 </script>
 
