@@ -4,12 +4,8 @@
         <a> 我是View1 </a>
     </div>
 </template>
- 
 <script type="text/javascript">
-    export default {
-        name: 'view1',
-    }
+export default {
+  name: 'view1'
+}
 </script>
- 
-<style>
-</style>

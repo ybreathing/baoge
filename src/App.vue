@@ -11,8 +11,7 @@
     <router-view></router-view>
   </div>
 </template>
-
-<script>  
+<script>
 import AuthorInfo from './components/AuthorInfo.vue'
 export default {
   name: 'App',
