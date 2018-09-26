@@ -27,8 +27,7 @@ npm run e2e
 npm test
 ```
 
-# explain
-.
+## explain
 |-- build                            // 项目构建(webpack)相关代码
 |   |-- build.js                     // 生产环境构建代码
 |   |-- check-version.js             // 检查node、npm等版本
