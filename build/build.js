@@ -1,3 +1,4 @@
+// 生成环境构建代码
 'use strict'
 require('./check-versions')()
 

@@ -1,3 +1,4 @@
+ <!-- App.vue是我们的跟组件，所有页面都是在App.vue下面进行切换的，可以理解为所有的组件都是App.vue的子组件，我们可以吧头部课底部及每个页面都出现的内容放在App.vue里面。 -->
 <template>
   <div id="app">
     <img src="./assets/logo.png">

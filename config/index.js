@@ -28,7 +28,7 @@ module.exports = {
     useEslint: true, // useEslint是否使用eslint
     // If true, eslint errors and warnings will also be shown in the error overlay
     // in the browser.
-    showEslintErrorsInOverlay: ture, // 是否展示eslint的错误提示
+    showEslintErrorsInOverlay: true, // 是否展示eslint的错误提示
 
     /**
      * Source Maps

@@ -1,3 +1,4 @@
+// 检查node，npm等版本
 'use strict'
 const chalk = require('chalk')
 const semver = require('semver')
