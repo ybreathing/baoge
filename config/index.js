@@ -14,7 +14,7 @@ module.exports = {
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 8077, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,  // 是否自动打开浏览器
     errorOverlay: true, // 查询错误
     notifyOnErrors: true, // 通知错误
@@ -28,7 +28,7 @@ module.exports = {
     useEslint: true, // useEslint是否使用eslint
     // If true, eslint errors and warnings will also be shown in the error overlay
     // in the browser.
-    showEslintErrorsInOverlay: false, // 是否展示eslint的错误提示
+    showEslintErrorsInOverlay: ture, // 是否展示eslint的错误提示
 
     /**
      * Source Maps
