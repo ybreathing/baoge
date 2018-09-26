@@ -54,7 +54,8 @@ npm test
 |-- README.md                        // 项目说明
 |-- favicon.ico 
 |-- index.html                       // 入口页面（单页面入口。相当于一个大框架，其他页面都是填在这个页面里面的）
-|-- package.json                     // 项目基本信息（package.json文件是项目根目录下的一个文件，定义该项目开发所需要的各种模块以及一些项目配置信息（如项目名称、版本、描述、作者等）。）
+|-- package.json                     // 项目基本信息（package.json文件是项目根目录下的一个文件，
+                                        定义该项目开发所需要的各种模块以及一些项目配置信息（如项目名称、版本、描述、作者等）。）
 
 ```
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
