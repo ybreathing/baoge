@@ -20,15 +20,15 @@ export default new Router({
   linkActiveClass: 'active',
   // 路由配置
   routes: [
-  {
+    {
       path: '/view1',
       component: View1
-  }, {
+    }, {
       path: '/view2',
       component: View2
-  }, {
+    }, {
       path: '/*',
       component: View1
-  }
+    }
   ]
-}) 
+})
